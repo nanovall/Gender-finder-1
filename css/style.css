@@ -1,0 +1,121 @@
+body {
+    background-image: url("../images/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #202124;
+    font-family: "Calibri";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+.formulario {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px lightgrey;
+    max-width: 400px;
+}
+
+.formulario__titulo {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.formulario__grupo {
+    margin-bottom: 20px;
+}
+
+
+.formulario__label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #202124;
+}
+
+
+.formulario__input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+
+.formulario__submit {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: gray;
+    color: rgb(236, 240, 241);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario__submit:hover {
+    background-color: #555;
+}
+
+.usuario{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px lightgrey;
+    margin-top: 50px;
+
+}
+
+.nombre__label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #202124;
+}
+
+
+.nombre{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px lightgrey;
+    max-width: 400px;
+}
+
+.nombre__submit{
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: gray;
+    color: rgb(236, 240, 241);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nombre__submit:hover {
+    background-color: #555;
+}
+
+.mensaje {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px lightgrey;
+    max-width: 700px;
+    font-size:large;
+}
