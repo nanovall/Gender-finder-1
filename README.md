@@ -63,4 +63,4 @@ El código fuente está disponible en:
 
 ## 👨‍💻 Autor
 
-- Mariano Vallone
+- Mariano Valle :P
